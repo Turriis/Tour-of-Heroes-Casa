@@ -7,13 +7,15 @@ import { FormsModule } from '@angular/forms' // <-- NgModel lives here
 import { NgModule } from '@angular/core';
 import { HEROES } from './mock-heroes';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { MessagesComponent } from './messages/messages.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
